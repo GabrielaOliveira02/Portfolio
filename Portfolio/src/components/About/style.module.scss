@@ -1,0 +1,150 @@
+
+.divImage{
+    width: 80px;
+    height: 80px;
+    animation: girar 3s linear infinite;
+    @keyframes girar {
+      from {
+        transform: rotate(0deg); 
+      }
+      to {
+        transform: rotate(360deg); 
+      }
+    }
+}
+
+.sectionHome{
+    width: 100%;
+
+}
+
+.h3{
+    font-family: var(--font-family);
+    color: #4f7db8de; 
+    font-size: 2rem;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.5;
+}
+
+.h2{
+    font-family: var(--font-family);
+    color: #4f7db8de; 
+    font-size: 3rem;
+    font-weight: 600;
+    font-style: normal;
+    padding: 4px;
+}
+
+@media (min-width: 720px) {
+    .divTitle{
+        width: 80vw;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .divTitleDesigner{
+        width: 146px;
+        height: 136px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 74px;
+        border: 10px rgba(79, 125, 184, 0.8705882353);
+        border-style: dotted;
+        border-radius: 50%;
+        padding: 65px;
+        justify-content: center;
+    }
+    .divContent{
+        display: flex;
+        flex-direction: column;
+        height: 180vh;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 30px;
+        margin: 0 auto;
+    }
+    
+    .divH3{
+        display: flex;
+        flex-direction: row;
+        padding: 91px;
+        margin-right: -137px;
+    }
+}
+
+
+
+
+@media(min-width: 300px ) and (max-width: 720px){
+    .divTitle{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .h2{
+        font-size: 2rem;
+    }
+    .h3{
+        font-size: 1rem;
+    }
+    .divImage{
+        width: 30px;
+        height: 30px;
+    }
+    .divContent{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 110vh;
+    }
+
+    .divTitleDesigner{
+        width: 63px;
+        height: 66px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 74px;
+        border: 10px rgba(79, 125, 184, 0.8705882353);
+        border-style: dotted;
+        border-radius: 50%;
+        padding: 65px;
+        justify-content: center;
+    }
+
+    .divH3{
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        padding-top: 65px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

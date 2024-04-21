@@ -1,0 +1,161 @@
+
+.divImage{
+    width: 50px;
+    height: 50px;
+    animation: girar 3s linear infinite;
+    @keyframes girar {
+    from {
+        transform: rotate(0deg); 
+    }
+    to {
+        transform: rotate(360deg); 
+    }
+    }
+}
+
+.h1{
+    font-family: var(--font-family);
+    color: #4f7db8; 
+    font-size: 2rem;
+    font-weight: 600;
+    font-style: normal;
+    padding: 2px;
+}
+
+
+.h3{
+    font-family: var(--font-family);
+    color: #4f7db8de; 
+    font-size: 4rem;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.5;
+    padding: 6px;
+    
+}
+.titleOption{
+    font-family: var(--font-family);
+    color: #4f7db8de; 
+    font-size: 1rem;
+    font-weight: 600;
+    font-style: normal;
+}
+.titleOptionLink{
+    font-family: var(--font-family);
+    color: #1e4579; 
+    font-size: 1rem;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+.divTitleDesigner{
+    width: 160px;
+    height: 144px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 83px;
+    border: 10px rgba(79, 125, 184, 0.8705882353);
+    border-style: dotted;
+    border-radius: 50%;
+    padding: 60px;
+    justify-content: center;
+}
+
+.divContent{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.divImages{
+    margin-top: 15px;
+}
+.divH3{
+    width: 80%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divContentContacts{
+    display: flex;
+}
+
+.Images{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #4f7db8;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    
+    background: none;
+    box-shadow: none;
+    
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    
+    cursor: pointer;
+    
+}
+
+.sectionHome{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 160vh;
+}
+
+@media (min-width: 720px) {
+    .divImage {
+        width: 80px; 
+        height: 80px; 
+    }
+    .divSection{
+        margin-top: 200px;
+        margin-right: 25px;
+    }
+   
+}
+
+
+@media(min-width: 300px ) and (max-width: 720px){
+    .divImagesTop{
+        margin-top: 15px;
+        width: 80%;
+    }
+    .h1 {
+        font-size: 2rem; 
+    }
+    .h3{
+        font-size: 3rem;
+        line-height: 1.5;
+    }
+    .divImage {
+        width: 50px; 
+        height: 50px; 
+    }
+    .divSection{
+        height: 50vh;
+    
+    }
+    .divTitleDesigner{
+        padding: 39px;
+    }
+    .sectionHome{
+        height: 100vh;
+    }
+}
